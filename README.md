@@ -5,7 +5,7 @@ Well, it converts a php array into a base html template. just input an array. an
 
 # Example?
 ```php
-<?php Frame::start()->head([
+<?php Scaffolding::start()->head([
 	'title'=>'A page', 
 	'include'=>[
 		'css'=>[
@@ -50,5 +50,5 @@ Well, it converts a php array into a base html template. just input an array. an
   </div>  
 </div>
 
-<?php Frame::start()->end();?>
+<?php Scaffolding::start()->end();?>
 ```

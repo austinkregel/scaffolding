@@ -24,7 +24,7 @@ class Scaffolding{
 		foreach($attr as $resource => $value){
 			switch($resource){
 				case 'title':
-				  $this->title = $value;
+				  $this->includes .= "\t<title>$value</title>\n";
 				  break;
 				case 'include':
 				  if(is_array($value))
